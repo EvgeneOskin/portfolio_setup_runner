@@ -13,8 +13,8 @@ run
 Just type:
 >python runner.py
 
-Firstly It'll download a csv filed frim ftp server.
-Next sql files will be generated.
+Firstly It'll download a csv filed frim ftp server in directory *csvs*.
+Next sql files will be generated in directory *sqls*..
 Thirdly database "quotes.db" will created in *bin* directory,
 also add sql files in database.
 Finally it'll start a stablePortfolio with predefined time period 
