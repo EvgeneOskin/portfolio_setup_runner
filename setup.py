@@ -26,8 +26,7 @@ def main():
     rel_paths_to_dirs = filter (os.path.isdir, os.listdir(current_path))
     paths_to_repos = map (os.path.abspath, rel_paths_to_dirs)
     for path in paths_to_repos:
-        if not instal_hs(path, current_path) == 4:
-            print "%s:\n   was not installed as haskell package" % path
+            print path
 
 if __name__ == "__main__":
     main()
