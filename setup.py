@@ -27,8 +27,8 @@ def main():
     rel_paths_to_dirs = filter (os.path.isdir, os.listdir(current_path))
     paths_to_repos = map (os.path.abspath, rel_paths_to_dirs)
     for path in paths_to_repos:
-        instal_hs(path)
         print path
+        instal_hs(path, current_path)
 
 if __name__ == "__main__":
     main()
