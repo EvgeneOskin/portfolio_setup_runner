@@ -1,0 +1,12 @@
+[submodule "csvLoader"]
+	path = csvLoader
+	url = git@github.com:EvgeneOskin/csvLoader.git
+[submodule "csv2sql"]
+	path = csv2sql
+	url = git@github.com:EvgeneOskin/csv2sql.git
+[submodule "quotes_database"]
+	path = quotes_database
+	url = git@github.com:EvgeneOskin/quotes_database.git
+[submodule "stablePortfolio"]
+	path = stablePortfolio
+	url = git@github.com:EvgeneOskin/stablePortfolio.git
