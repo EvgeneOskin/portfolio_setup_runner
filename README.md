@@ -10,7 +10,7 @@ to *bin* directory from downloaded submodules.
 
 run
 ---
-***Before starting you must have a Enveronment variable *EOD_USER* (user name on eoddata ftp-server) and *EOD_PSSWD* (users password on eoddata ftpserver).***
+***Before starting you must have a environment variables *EOD_USER* (user name on eoddata ftp-server) and *EOD_PSSWD* (users password on eoddata ftpserver).***
 
 Just type:
 >python runner.py
