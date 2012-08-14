@@ -17,6 +17,7 @@ def instal_hs(path_to_repo, path):
     
 def main():
     current_path = os.path.abspath(os.curdir)
+    print commands.getstatusoutput('git submodule update --init --recursive')[1]
     print current_path
     """paths_to_repos = ["abolute/path/to/csv2sql/repo"
                     , "abolute/path/to/csvLoader/repo"
@@ -26,7 +27,8 @@ def main():
     rel_paths_to_dirs = filter (os.path.isdir, os.listdir(current_path))
     paths_to_repos = map (os.path.abspath, rel_paths_to_dirs)
     for path in paths_to_repos:
-            print path
+        instal_hs(path)
+        print path
 
 if __name__ == "__main__":
     main()
