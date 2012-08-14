@@ -6,7 +6,7 @@ Just type:
 >python setup.py
 
 It will install executable files (csv2sql, csvLoader, StablePortfolio)
-to bin directory from downloaded submodules.
+to *bin* directory from downloaded submodules.
 
 run
 ---
