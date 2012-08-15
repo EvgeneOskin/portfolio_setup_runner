@@ -24,17 +24,17 @@ type_of_database_prepareDB = "sqlite"
 
 application_name_addToDB = "sqlite3"
 
-date_period_stablePortfolio = '"19900101 20200101"'
+date_period_stablePortfolio = '19900101 20200101'
 
 def main():
-    str_for_csvLoader = '%s/csvLoader -M %s -O "%s" -S %s -U %s -P %s' % (path_to_csvLoader
+    str_for_csvLoader = '%s/csvLoader -M "%s" -O "%s" -S "%s" -U "%s" -P "%s"' % (path_to_csvLoader
                                                                     , market_name_csvLoader
                                                                     , path_to_output_csvLoader
                                                                     , source_csvLoader
                                                                     , user_name_csvLoader
                                                                     , password_csvLoader
     )
-    str_for_csv2sql = "%s/csv2sql -I %s -O %s" % (path_to_csv2sql
+    str_for_csv2sql = '%s/csv2sql -I "%s" -O "%s"' % (path_to_csv2sql
                                                 , path_to_csv_dir
                                                 , path_to_sql_dir
     )
@@ -47,7 +47,7 @@ def main():
                                                                         , path_to_database
                                                                         , application_name_addToDB
     )
-    str_for_stablePortfolio = "%s/stablePortfolio -I %s -T %s" % (path_to_stablePortfolio
+    str_for_stablePortfolio = '%s/stablePortfolio -I "%s" -T "%s"' % (path_to_stablePortfolio
                                                                 , path_to_database
                                                                 , date_period_stablePortfolio
     )

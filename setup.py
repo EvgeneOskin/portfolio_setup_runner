@@ -5,7 +5,7 @@ import os.path
 def instal_hs(path_to_repo, path):
     if not path_to_repo == "":
         os.chdir(path_to_repo)
-    install = commands.getstatusoutput("cabal install --bindir=%s" % path)
+    install = commands.getstatusoutput('cabal install --bindir="%s"' % path)
     print install[1]
     return install[0]
     
