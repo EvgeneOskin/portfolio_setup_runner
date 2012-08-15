@@ -4,9 +4,15 @@ Depends
 -------
 You should have:
 >**git**;
+
 >**python2.7**;
+
+>>*sqalchemy*
+
 >**sqlite3**
+
 >**ghc** (*haskel platform*):
+
 >>**cabal**;
 >>*ftphs*;
 >>*filepath*;
