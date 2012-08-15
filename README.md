@@ -1,5 +1,26 @@
 portfolio_setup_runner
 ======================
+Depends
+-------
+You should have:
+>**git**;
+>**python2.7**;
+>**ghc** (*haskel platform*):
+>>**cabal**;
+>>*ftphs*;
+>>*filepath*;
+>>*directory*;
+>>*regex-posix*;
+>>*old-locale*;
+>>*split*;
+>>*GA*;
+>>*random*;
+>>*containers*;
+>>*time*
+>>*HDBC-sqlite3*;
+>>*HDBC*
+>>you can get it on ***http://hackage.haskell.org/packages/archive/pkg-list.html***
+
 setup
 -----
 Just type:
