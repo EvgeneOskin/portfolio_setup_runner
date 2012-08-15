@@ -5,6 +5,7 @@ Depends
 You should have:
 >**git**;
 >**python2.7**;
+>**sqlite3**
 >**ghc** (*haskel platform*):
 >>**cabal**;
 >>*ftphs*;
@@ -19,6 +20,7 @@ You should have:
 >>*time*
 >>*HDBC-sqlite3*;
 >>*HDBC*
+
 >>you can get it on ***http://hackage.haskell.org/packages/archive/pkg-list.html***
 
 setup
